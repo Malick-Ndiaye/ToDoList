@@ -1,11 +1,11 @@
-package com.malick.todolist
+package com.malick.todolist.taskservice
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class ToDoListApplication
+class TaskServiceApplication
 
 fun main(args: Array<String>) {
-    runApplication<ToDoListApplication>(*args)
+    runApplication<TaskServiceApplication>(*args)
 }
