@@ -7,6 +7,6 @@ import org.springframework.data.relational.core.mapping.Table
 data class Task(
     @Id val id: Long? = null,
     val title: String,
-    val description: String,
+    val description: String?,
     val completed: Boolean = false
 )
